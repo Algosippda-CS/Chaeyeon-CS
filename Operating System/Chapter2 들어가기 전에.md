@@ -60,7 +60,8 @@ CPU는 여러 개의 레지스터를 갖고 있다
 
 명령어 하나를 처리하는 절차
 
-![os2.jpg](Chapter2 들어가기 전에/os2.jpg)
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/694e9886-d867-4166-b834-fd3b8ee4ed76)
+
 
 1. Fetch( 반입 ) : 메모리에 있는 명령어를 읽어 처리기에 있는 레지스터로 갖고 온다. (이때 위에서 말한 연산 제어 레지스터 동원) 
 2. 연산의 종류를 파악하고 실제로 실행
