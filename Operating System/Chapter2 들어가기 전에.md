@@ -23,7 +23,8 @@ CPU는 여러 개의 레지스터를 갖고 있다
 
 ### 레지스터
 
-![os1.jpg](Operating System/Chapter2 들어가기 전에/os1.jpg)
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/f81d3301-1623-4f02-9451-e4527196d2ba)
+
 
 1. 레지스터는 메모리보다 빠른 기억 장치, 8비트 16비트 32비트 등의 작은 크기를 가진다.
 2. 데이터 레지스터, 주소 레지스터, 조건 코드 레지스터가 있다
