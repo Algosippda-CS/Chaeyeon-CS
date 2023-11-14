@@ -38,7 +38,8 @@ PCB에 저장되는 정보
 
 ## 3.1.2 프로세스의 상태(Process State)와 변화
 
-<그림추가>
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/6e12897b-14e6-4f31-91fc-c05d403c7faf)
+
 
 ※CPU 하나라고 가정
 
@@ -125,7 +126,7 @@ CPU를 가동 시키고 싶다면 먼저 메모리를 확보하고, 입출력 �
 - 주기적인 일이라서 다음 주기 실행 까지 메모리를 회수해도 문제되지 않을 때 등
 
 # 3.2 스레드란?
-
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/23902252-897b-4a2e-afac-62329bdbd382)
 프로세스 : 부여된 자원의 소유자
 
 스레드 : 스케줄링의 단위
@@ -143,7 +144,8 @@ CPU를 가동 시키고 싶다면 먼저 메모리를 확보하고, 입출력 �
 - 보호(jprotection)와 자원의 할당 단위가 된다 → 즉, 프로세스의 코드와 데이터를 수용하기 위한 가상 주소 공간과 PU, 다른 프로세스들의 파일들, 입출력에 사용되는 자원에 대한 보호된 엑세스를 보장하기 위한 단위
 - 한 프로세스 내의 다수 개의 스레드 각각은 스레드의 수행 상태 를 위한 스레드 문맥, 각자의 실행 스택, 자신이 속한 프로세스가 가지는 메모리와 자원에 대한 접근 권한을 가진다.
 
-<사진 추가>
+
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/e63fedb1-3571-4865-a8f8-682a331fb33f)
 
 - 각 스레드는 PCB와 같은 자신의 제어블록과 스택을 가짐
 - 동시에 프로세스 정보인PCB와 사용자 주소 공간을 공유
@@ -168,7 +170,8 @@ CPU를 가동 시키고 싶다면 먼저 메모리를 확보하고, 입출력 �
 
 ## 3.2.3 스레드의 종류
 
-<사진 추가>
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/8efd5471-8403-4c9d-90b6-42aa4f1323de)
+
 
 ### 사용자 레벨 스레드 (User Level Thread)
 
@@ -198,7 +201,8 @@ CPU를 가동 시키고 싶다면 먼저 메모리를 확보하고, 입출력 �
     
 - 반면 같은 프로세스에 속한 스레드 간 스위칭에도 커널의 개입이 필요하므로 모드 스위칭이 요구된다는 단점이 있다.
 
-<사진 추가>
+![image](https://github.com/Algosippda-CS/Chaeyeon-CS/assets/61193581/aad5ca35-e121-4e6a-a93b-a18bb3e9dbea)
+
 
 단일 처리 시스템에서의 작업 비교
 
